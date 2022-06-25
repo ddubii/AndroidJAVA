@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="BMI: \n"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:id="@+id/textView1"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0048FF"
+        android:text="Result\n"
+        android:textSize="20dip"
+        android:gravity="center"/>
+
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/goBack"
+        android:layout_gravity="center"
+        android:text="메인으로 돌아가기"/>
+
+</LinearLayout>

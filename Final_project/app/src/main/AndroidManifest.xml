@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hbkim.myapplication">
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>  //걸음 수 센서
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/walk_icon"
+        android:label="뚜벅뚜벅"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final_project">
+
+        <activity android:name=".startLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity"/>
+        <activity android:name=".joinActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".BMI_mainActivity"/>
+        <activity android:name=".BMI_resultActivity"/>
+        <activity android:name=".cal_mainActivity"/>
+        <activity android:name=".cal_resultActivity"/>
+    </application>
+
+</manifest>
